@@ -13,7 +13,7 @@
         </v-row>
         <v-row>
           <v-col cols="12" align="center">
-            "Anything that can be connected, will be connected."
+            <p>"Anything that can be connected, will be connected."</p>
           </v-col>
         </v-row>
         <br />
@@ -55,8 +55,10 @@
             <br />
             <br />
             <v-row>
-              We are Clyck, an IOT platform that allows you to control your
-              devices from any part of the world.
+              <p>
+                We are Clyck, an IOT platform that allows you to control your
+                devices from any part of the world.
+              </p>
             </v-row>
           </v-col>
           <v-col cols="6" smAndDown="12">
@@ -163,6 +165,12 @@ export default {
   font-size: 3.75rem;
 }
 .login {
-  color: #5680E9;
+  color: #5680e9;
+}
+h1 {
+  font-family: sans-serif;
+}
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 </style>

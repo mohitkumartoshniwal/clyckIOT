@@ -1,6 +1,7 @@
 import axios from "axios";
 import firebase from "firebase/app";
 import "firebase/auth";
+import firebaseConfig from "../firebaseCredentials.js";
 
 const getToken = async () => {
   const token = await firebase.auth().currentUser.getIdToken();
@@ -10,7 +11,7 @@ const getToken = async () => {
 const axiosCreate = async () => {
   const token = await getToken();
   return axios.create({
-    baseURL: "https://iotfirebasebackend.herokuapp.com/api",
+    baseURL: `${firebaseConfig.BASE_URL}/api`,
     headers: {
       Authorization: `Bearer ${token}`,
       Accept: "application/json",

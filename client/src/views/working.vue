@@ -6,7 +6,7 @@
                 <v-img src="blog1.jpg" loading="lazy"> </v-img>
             </v-row>
             <v-row class="mt-10">
-                <h2>or you can add device with custom name by clicking on plus button</h2>
+                <h2>You can also add device with custom name by clicking on plus button</h2>
                 <v-img src="blog2.jpg" loading="lazy"> </v-img>
             </v-row>
             <v-row class="mt-10">
@@ -17,11 +17,11 @@
                 <v-img src="blog4.jpg" loading="lazy"> </v-img>
             </v-row>
             <v-row class="mt-10">
-                <h2>3.select your hardware here</h2>
+                <h2>3.Select your hardware here</h2>
                 <v-img src="blog5.jpg" loading="lazy"> </v-img>
             </v-row>
             <v-row class="mt-10">
-                <h2>4.copy the code and also the authID</h2>
+                <h2>4.Copy the code and also the authID</h2>
                 <v-img src="blog6.jpg" loading="lazy"> </v-img>
             </v-row>
             <v-row class="mt-10">
@@ -52,5 +52,11 @@ export default {
 </script>
 
 <style scoped>
+h2 {
+    font-family:cursive;
+}
+li {
+    font-family: cursive;
+}
 
 </style>
