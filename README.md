@@ -81,6 +81,7 @@ firebaseCredentials.js
   messagingSenderId: "XXXXXXXXXXXX",
   appId: "XXXXXXXXXXXXXXXXXXX",
   measurementId: "XXXXXXXXXXXXXX",
+  BASE_URL: "http://localhost:3000"
 };
 
 export default firebaseConfig;
