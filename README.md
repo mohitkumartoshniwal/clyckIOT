@@ -117,6 +117,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
   
 ## Demo
+* [Clyck](https://iotfrontendvue.herokuapp.com)
 * [Video](https://youtu.be/iuoQcgHl23I)
 
 
@@ -134,6 +135,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 - Add PWA support.
 
 - Add Swagger for API.
+- Implement CI/CD.
 ## Environment Variables
 
 To run this project, you will need to add the following environment variables to your .env file
