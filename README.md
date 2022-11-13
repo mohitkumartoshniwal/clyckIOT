@@ -118,7 +118,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
   
 ## Demo
-* [Clyck](https://iotfrontendvue.herokuapp.com)
 * [Video](https://youtu.be/iuoQcgHl23I)
 
 
